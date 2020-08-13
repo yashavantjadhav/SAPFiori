@@ -1,4 +1,5 @@
 {
+<<<<<<< Upstream, based on 1fa16817e39b6efc9a88cbab8d0369840b5c3c86
   "routes": [
     {
       "path": "/webapp/resources",
@@ -51,5 +52,30 @@
     }
   ],
   "welcomeFile": "/webapp/test/flpSandbox.html",
+=======
+  "welcomeFile": "/webapp/index.html",
+  "routes": [
+    {
+      "path": "/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources",
+        "version": "1.52.13"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources",
+        "version": "1.52.13"
+      },
+      "description": "SAPUI5 Test Resources"
+    }
+  ],
+>>>>>>> ca048c2 Pushing Welcome App
   "sendWelcomeFileRedirect": true
 }

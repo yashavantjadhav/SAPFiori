@@ -1,3 +1,4 @@
+<<<<<<< Upstream, based on 1fa16817e39b6efc9a88cbab8d0369840b5c3c86
 /* global document */
 sap.ui.define([
 		"sap/ui/core/UIComponent",
@@ -74,3 +75,32 @@ sap.ui.define([
 
 	}
 );
+=======
+sap.ui.define([
+	"sap/ui/core/UIComponent",
+	"sap/ui/Device",
+	"WELCOME/model/models"
+], function(UIComponent, Device, models) {
+	"use strict";
+
+	return UIComponent.extend("WELCOME.Component", {
+
+		metadata: {
+			manifest: "json"
+		},
+
+		/**
+		 * The component is initialized by UI5 automatically during the startup of the app and calls the init method once.
+		 * @public
+		 * @override
+		 */
+		init: function() {
+			// call the base component's init function
+			UIComponent.prototype.init.apply(this, arguments);
+
+			// set the device model
+			this.setModel(models.createDeviceModel(), "device");
+		}
+	});
+});
+>>>>>>> ca048c2 Pushing Welcome App

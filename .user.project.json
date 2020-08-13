@@ -1,6 +1,7 @@
 {
   "run": [
     {
+<<<<<<< Upstream, based on 1fa16817e39b6efc9a88cbab8d0369840b5c3c86
       "filePath": "/Order_Master/webapp/test/flpSandbox.html",
       "previewMode": 1,
       "dataMode": 1,
@@ -160,6 +161,24 @@
         "id": "8827593",
         "runnerId": "fiorirunner",
         "displayName": "App as Fiori Component"
+=======
+      "filePath": "/webapp/index.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [],
+      "urlParametersNotNeeded": false,
+      "_metadata": {
+        "runnerId": "webapprunner",
+        "id": 5100887,
+        "displayName": "Run index.html",
+        "lastRunTimeStamp": 1597317946361
+>>>>>>> ca048c2 Pushing Welcome App
       }
     }
   ]

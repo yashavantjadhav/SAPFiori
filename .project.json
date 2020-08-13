@@ -3,6 +3,7 @@
     "sap.watt.uitools.ide.fiori",
     "com.watt.common.builder.sapui5clientbuild"
   ],
+<<<<<<< Upstream, based on 1fa16817e39b6efc9a88cbab8d0369840b5c3c86
   "build": {
     "targetFolder": "dist",
     "sourceFolder": "webapp",
@@ -66,5 +67,44 @@
       "xml": "fioriXmlAnalysis",
       "js": "fioriJsValidator"
     }
+=======
+  "generation": [
+    {
+      "templateId": "ui5template.basicSAPUI5ApplicationProjectCommon",
+      "templateVersion": "1.32.0",
+      "dateTimeStamp": "Thu, 13 Aug 2020 11:24:41 GMT"
+    },
+    {
+      "templateId": "ui5template.basicSAPUI5ApplicationProject",
+      "templateVersion": "1.40.12",
+      "dateTimeStamp": "Thu, 13 Aug 2020 11:24:42 GMT"
+    }
+  ],
+  "codeCheckingTriggers": {
+    "notifyBeforePush": true,
+    "notifyBeforePushLevel": "Error",
+    "blockPush": false,
+    "blockPushLevel": "Error"
+  },
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "en,fr,de",
+    "defaultLanguage": "en",
+    "defaultI18NPropertyFile": "i18n.properties",
+    "resourceModelName": "i18n"
+  },
+  "basevalidator": {
+    "services": {
+      "xml": "fioriXmlAnalysis",
+      "js": "fioriJsValidator"
+    }
+  },
+  "build": {
+    "buildRequired": true,
+    "sourceFolder": "webapp",
+    "targetFolder": "dist",
+    "excludedFolders": [],
+    "excludedFiles": []
+>>>>>>> ca048c2 Pushing Welcome App
   }
 }
