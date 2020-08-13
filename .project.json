@@ -1,0 +1,61 @@
+{
+  "projectType": [
+    "sap.watt.uitools.ide.fiori",
+    "com.watt.common.builder.sapui5clientbuild"
+  ],
+  "generation": [
+    {
+      "templateId": "ui5template.basicSAPUI5ApplicationProjectCommon",
+      "templateVersion": "1.32.0",
+      "dateTimeStamp": "Mon, 10 Aug 2020 05:27:06 GMT"
+    },
+    {
+      "templateId": "ui5template.basicSAPUI5ApplicationProject",
+      "templateVersion": "1.40.12",
+      "dateTimeStamp": "Mon, 10 Aug 2020 05:27:06 GMT"
+    },
+    {
+      "templateId": "servicecatalog.connectivityComponent",
+      "templateVersion": "0.0.0",
+      "dateTimeStamp": "Mon, 10 Aug 2020 06:34:02 GMT"
+    }
+  ],
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "en,fr,de",
+    "defaultLanguage": "en",
+    "defaultI18NPropertyFile": "i18n.properties",
+    "resourceModelName": "i18n"
+  },
+  "basevalidator": {
+    "services": {
+      "xml": "fioriXmlAnalysis",
+      "js": "fioriJsValidator"
+    }
+  },
+  "codeCheckingTriggers": {
+    "notifyBeforePush": true,
+    "notifyBeforePushLevel": "Error",
+    "blockPush": false,
+    "blockPushLevel": "Error"
+  },
+  "build": {
+    "buildRequired": false,
+    "sourceFolder": "webapp",
+    "targetFolder": "dist",
+    "excludedFolders": [],
+    "excludedFiles": [],
+    "lastBuildDateTime": "Wed, 12 Aug 2020 14:19:54 GMT"
+  },
+  "mockpreview": {
+    "mockUri": "/sap/opu/odata/sap/ZSD_ORDER_DETAILS_SRV",
+    "metadataFilePath": "",
+    "loadJSONFiles": false,
+    "loadCustomRequests": false,
+    "mockRequestsFilePath": ""
+  },
+  "deploy": {
+    "destination": "S4H",
+    "name": "ZSALES_ORDER"
+  }
+}
